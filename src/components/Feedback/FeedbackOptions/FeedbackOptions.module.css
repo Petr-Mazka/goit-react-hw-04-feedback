@@ -1,0 +1,26 @@
+.buttonList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.button{
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    border: thick double rgb(34, 3, 173); 
+    color: white;
+    font-weight: bold;
+    background-color: rgb(40, 150, 240);
+}
+
+.button:hover,
+.button:focus{
+    background-color: rgb(29, 100, 207);
+    cursor: pointer;
+}
+
+.button:not(:last-child){
+    margin-right: 10px;
+}

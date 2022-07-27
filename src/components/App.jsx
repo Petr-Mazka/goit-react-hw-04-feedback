@@ -1,4 +1,4 @@
-import Counter from "./Saa";
+import Feedback from "./Feedback/Feedback";
 
 export const App = () => {
   return (
@@ -12,7 +12,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      <Counter step={5} />
+      <Feedback  />
     </div>
   );
 };
